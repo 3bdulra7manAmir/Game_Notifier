@@ -46,6 +46,9 @@ dependencies:
   # SVG rendering
   flutter_svg: ^2.0.17
 
+  # Flutter Launcher Icons (for app icons)
+  flutter_launcher_icons: ^0.14.3
+
   # Rename App (for changing app name/package)
   rename_app: ^1.6.2
 
@@ -103,7 +106,8 @@ flutter:
   # Asset Paths
   assets:
     - assets/icons/
-    - assets/imgs/
+    - assets/imgs/Splash
+    - assets/imgs/Logo
     - assets/json/
 
 # Flutter Intl Configuration

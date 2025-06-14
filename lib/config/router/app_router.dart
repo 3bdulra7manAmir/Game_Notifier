@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/widgets/app_circular_indicator.dart';
+import '../../features/splash/presentation/screens/splash_view.dart';
 import 'app_routes.dart';
 
 
@@ -17,11 +18,11 @@ abstract class AppRouter
     routes:
     [
       ///[App_Splash]
-      // GoRoute(
-      //   path: AppRoutes.kSplash,
-      //   name: AppRoutes.kSplash,
-      //   builder: (context, state) => const SplashScreen(),
-      // ),
+      GoRoute(
+        path: AppRoutes.kSplash,
+        name: AppRoutes.kSplash,
+        builder: (context, state) => const Splash(),
+      ),
   
 
       /// App Bottom Navigation Bar

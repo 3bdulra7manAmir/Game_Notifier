@@ -10,8 +10,7 @@ part 'theme_controller.g.dart';
 /// Indexed themes to store in SharedPreferences
 enum AppTheme
 {
-  light,
-  dark;
+  light, dark;
 
   /// Convert index to AppTheme
   static AppTheme fromIndex(int index)

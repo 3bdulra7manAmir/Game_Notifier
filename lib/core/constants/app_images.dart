@@ -11,15 +11,14 @@ class _AppIconsPNG
 {
   _AppIconsPNG._();
 
-  /// Splash Screen
-  final String appLogo = "assets/icons/Splash/App_Logo.png"; /// appLogo
-
-  /// App Header
-  final String headerCloud = "assets/icons/AppHeader/App_Cloud.png"; /// headerCloud
 }
 
 ///-----------------------------------------------------------------//
 class _AppPNGIMGs
 {
   _AppPNGIMGs._();
+
+  /// Splash Screen
+  final String appSplashPNG = "assets/icons/Splash/Splash.png";
+  final String appSplashSVG = "assets/icons/Splash/Splash.svg";
 }
