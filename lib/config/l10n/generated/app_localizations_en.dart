@@ -12,16 +12,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get skip => 'Skip';
 
   @override
-  String get welcomeBack => 'Welcome Back';
+  String get confirm => 'Confirm';
 
   @override
-  String get language => 'Language';
+  String get selected => 'Selected';
 
   @override
-  String get country => 'Country';
-
-  @override
-  String get mode => 'Mode';
+  String get default_ => 'default';
 
   @override
   String get login => 'Login';
@@ -33,19 +30,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get or => 'Or';
 
   @override
-  String get email => 'Email';
-
-  @override
-  String get enterEmaill => 'Enter Email';
-
-  @override
-  String get password => 'Password';
-
-  @override
   String get remember => 'Remember';
 
   @override
   String get forgetPassword => 'Forget Password';
+
+  @override
+  String get forgotPassword => 'Forgot password ?';
 
   @override
   String get orLoginWith => 'or login with';
@@ -54,49 +45,28 @@ class AppLocalizationsEn extends AppLocalizations {
   String get orSignUpWith => 'or SignUp with';
 
   @override
-  String get facebook => 'Facebook';
-
-  @override
-  String get google => 'Google';
-
-  @override
-  String get apple => 'Apple';
-
-  @override
-  String get fullName => 'Full Name';
-
-  @override
-  String get date => 'Date';
-
-  @override
-  String get gender => 'Gender';
-
-  @override
-  String get male => 'Male';
-
-  @override
-  String get female => 'Female';
-
-  @override
-  String get signUpPage => 'Sign Up Form Goes Here';
-
-  @override
   String get resetPassword => 'Reset Password';
 
   @override
-  String get forgotPassword => 'Forgot password ?';
+  String get verify => 'Verify';
+
+  @override
+  String get verifyLater => 'Verify Later';
 
   @override
   String get withYourAccount => 'with your account';
 
   @override
+  String get email => 'Email';
+
+  @override
   String get emailAddress => 'Email Address';
 
   @override
-  String get dontHaveEmail => 'Don\'t Have Email ?';
+  String get enterEmaill => 'Enter Email';
 
   @override
-  String get verify => 'Verify';
+  String get password => 'Password';
 
   @override
   String get newPassword => 'New Password';
@@ -105,7 +75,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get confirmPassword => 'Confirm Password';
 
   @override
-  String get verifyLater => 'Verify Later';
+  String get fullName => 'Full Name';
 
   @override
   String get verificationCode => 'Verification Code';
@@ -125,24 +95,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get resend => 'Resend';
-
-  @override
-  String get arabic => 'Arabic';
-
-  @override
-  String get english => 'English';
-
-  @override
-  String get dark => 'Dark';
-
-  @override
-  String get light => 'Light';
-
-  @override
-  String get default_ => 'default';
-
-  @override
-  String get selected => 'Selected';
 
   @override
   String get emailIsRequired => 'Email is required';
@@ -195,6 +147,31 @@ class AppLocalizationsEn extends AppLocalizations {
   String get validateFailureFullName => 'Validation failed for full name:';
 
   @override
+  String get incorrectEmailOrPassword => 'Incorrect email or password';
+
+  @override
+  String get dontHaveEmail => 'Don\'t Have Email ?';
+
+  @override
+  String get enterEmailAddressAssociated =>
+      'Enter the email address associated';
+
+  @override
+  String get facebook => 'Facebook';
+
+  @override
+  String get google => 'Google';
+
+  @override
+  String get apple => 'Apple';
+
+  @override
+  String get signUpPage => 'Sign Up Form Goes Here';
+
+  @override
+  String get date => 'Date';
+
+  @override
   String get selectDate => 'Select Date';
 
   @override
@@ -210,12 +187,35 @@ class AppLocalizationsEn extends AppLocalizations {
   String get day => 'Day';
 
   @override
-  String get confirm => 'Confirm';
+  String get gender => 'Gender';
 
   @override
-  String get enterEmailAddressAssociated =>
-      'Enter the email address associated';
+  String get male => 'Male';
 
   @override
-  String get incorrectEmailOrPassword => 'Incorrect email or password';
+  String get female => 'Female';
+
+  @override
+  String get welcomeBack => 'Welcome Back';
+
+  @override
+  String get language => 'Language';
+
+  @override
+  String get country => 'Country';
+
+  @override
+  String get mode => 'Mode';
+
+  @override
+  String get arabic => 'Arabic';
+
+  @override
+  String get english => 'English';
+
+  @override
+  String get dark => 'Dark';
+
+  @override
+  String get light => 'Light';
 }

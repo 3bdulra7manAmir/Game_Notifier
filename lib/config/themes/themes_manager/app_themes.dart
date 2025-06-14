@@ -15,7 +15,7 @@ class AppTheme
       cardColor: AppColors.color.kWhite001,
 
       inputDecorationTheme: InputDecorationTheme(
-        fillColor: AppColors.color.kGrey002,
+        fillColor: AppColors.color.kGrey001,
         focusedBorder: AppLightStyles.inputBorderLight,
         enabledBorder: AppLightStyles.inputBorderLight,
         errorBorder: AppLightStyles.inputBorderLight,
@@ -25,7 +25,7 @@ class AppTheme
 
       elevatedButtonTheme: AppLightStyles.elevatedButtonTheme,
       tabBarTheme: AppLightStyles.tabBarTheme,
-      appBarTheme: AppBarTheme(backgroundColor: AppColors.color.kGrey004, centerTitle: true,),
+      appBarTheme: AppBarTheme(backgroundColor: AppColors.color.kGrey002, centerTitle: true,),
 
       cupertinoOverrideTheme: AppLightStyles.cupertinoLightOverrideTheme
     );
@@ -36,11 +36,11 @@ class AppTheme
     return ThemeData(
       useMaterial3: true,
       brightness: Brightness.dark,
-      scaffoldBackgroundColor: AppColors.color.kDark002,
-      cardColor: AppColors.color.kDark002,
+      scaffoldBackgroundColor: AppColors.color.kBlack002,
+      cardColor: AppColors.color.kBlack002,
 
       inputDecorationTheme: InputDecorationTheme(
-        fillColor: AppColors.color.kDark001,
+        fillColor: AppColors.color.kBlack001,
         focusedBorder: AppDarkStyles.inputBorderDark,
         enabledBorder: AppDarkStyles.inputBorderDark,
         errorBorder: AppDarkStyles.inputBorderDark,
@@ -50,7 +50,7 @@ class AppTheme
 
       elevatedButtonTheme: AppDarkStyles.elevatedButtonTheme,
       tabBarTheme: AppDarkStyles.tabBarTheme,
-      appBarTheme: AppBarTheme(backgroundColor: AppColors.color.kGrey004, centerTitle: true,),
+      appBarTheme: AppBarTheme(backgroundColor: AppColors.color.kGrey002, centerTitle: true,),
 
     cupertinoOverrideTheme: AppDarkStyles.cupertinoDarkOverrideTheme
     );

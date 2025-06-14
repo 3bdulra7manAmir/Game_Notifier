@@ -104,29 +104,23 @@ abstract class AppLocalizations {
   /// **'Skip'**
   String get skip;
 
-  /// No description provided for @welcomeBack.
+  /// No description provided for @confirm.
   ///
   /// In en, this message translates to:
-  /// **'Welcome Back'**
-  String get welcomeBack;
+  /// **'Confirm'**
+  String get confirm;
 
-  /// No description provided for @language.
+  /// No description provided for @selected.
   ///
   /// In en, this message translates to:
-  /// **'Language'**
-  String get language;
+  /// **'Selected'**
+  String get selected;
 
-  /// No description provided for @country.
+  /// No description provided for @default_.
   ///
   /// In en, this message translates to:
-  /// **'Country'**
-  String get country;
-
-  /// No description provided for @mode.
-  ///
-  /// In en, this message translates to:
-  /// **'Mode'**
-  String get mode;
+  /// **'default'**
+  String get default_;
 
   /// No description provided for @login.
   ///
@@ -146,24 +140,6 @@ abstract class AppLocalizations {
   /// **'Or'**
   String get or;
 
-  /// No description provided for @email.
-  ///
-  /// In en, this message translates to:
-  /// **'Email'**
-  String get email;
-
-  /// No description provided for @enterEmaill.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter Email'**
-  String get enterEmaill;
-
-  /// No description provided for @password.
-  ///
-  /// In en, this message translates to:
-  /// **'Password'**
-  String get password;
-
   /// No description provided for @remember.
   ///
   /// In en, this message translates to:
@@ -175,6 +151,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Forget Password'**
   String get forgetPassword;
+
+  /// No description provided for @forgotPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot password ?'**
+  String get forgotPassword;
 
   /// No description provided for @orLoginWith.
   ///
@@ -188,71 +170,23 @@ abstract class AppLocalizations {
   /// **'or SignUp with'**
   String get orSignUpWith;
 
-  /// No description provided for @facebook.
-  ///
-  /// In en, this message translates to:
-  /// **'Facebook'**
-  String get facebook;
-
-  /// No description provided for @google.
-  ///
-  /// In en, this message translates to:
-  /// **'Google'**
-  String get google;
-
-  /// No description provided for @apple.
-  ///
-  /// In en, this message translates to:
-  /// **'Apple'**
-  String get apple;
-
-  /// No description provided for @fullName.
-  ///
-  /// In en, this message translates to:
-  /// **'Full Name'**
-  String get fullName;
-
-  /// No description provided for @date.
-  ///
-  /// In en, this message translates to:
-  /// **'Date'**
-  String get date;
-
-  /// No description provided for @gender.
-  ///
-  /// In en, this message translates to:
-  /// **'Gender'**
-  String get gender;
-
-  /// No description provided for @male.
-  ///
-  /// In en, this message translates to:
-  /// **'Male'**
-  String get male;
-
-  /// No description provided for @female.
-  ///
-  /// In en, this message translates to:
-  /// **'Female'**
-  String get female;
-
-  /// No description provided for @signUpPage.
-  ///
-  /// In en, this message translates to:
-  /// **'Sign Up Form Goes Here'**
-  String get signUpPage;
-
   /// No description provided for @resetPassword.
   ///
   /// In en, this message translates to:
   /// **'Reset Password'**
   String get resetPassword;
 
-  /// No description provided for @forgotPassword.
+  /// No description provided for @verify.
   ///
   /// In en, this message translates to:
-  /// **'Forgot password ?'**
-  String get forgotPassword;
+  /// **'Verify'**
+  String get verify;
+
+  /// No description provided for @verifyLater.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Later'**
+  String get verifyLater;
 
   /// No description provided for @withYourAccount.
   ///
@@ -260,23 +194,29 @@ abstract class AppLocalizations {
   /// **'with your account'**
   String get withYourAccount;
 
+  /// No description provided for @email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
   /// No description provided for @emailAddress.
   ///
   /// In en, this message translates to:
   /// **'Email Address'**
   String get emailAddress;
 
-  /// No description provided for @dontHaveEmail.
+  /// No description provided for @enterEmaill.
   ///
   /// In en, this message translates to:
-  /// **'Don\'t Have Email ?'**
-  String get dontHaveEmail;
+  /// **'Enter Email'**
+  String get enterEmaill;
 
-  /// No description provided for @verify.
+  /// No description provided for @password.
   ///
   /// In en, this message translates to:
-  /// **'Verify'**
-  String get verify;
+  /// **'Password'**
+  String get password;
 
   /// No description provided for @newPassword.
   ///
@@ -290,11 +230,11 @@ abstract class AppLocalizations {
   /// **'Confirm Password'**
   String get confirmPassword;
 
-  /// No description provided for @verifyLater.
+  /// No description provided for @fullName.
   ///
   /// In en, this message translates to:
-  /// **'Verify Later'**
-  String get verifyLater;
+  /// **'Full Name'**
+  String get fullName;
 
   /// No description provided for @verificationCode.
   ///
@@ -331,42 +271,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Resend'**
   String get resend;
-
-  /// No description provided for @arabic.
-  ///
-  /// In en, this message translates to:
-  /// **'Arabic'**
-  String get arabic;
-
-  /// No description provided for @english.
-  ///
-  /// In en, this message translates to:
-  /// **'English'**
-  String get english;
-
-  /// No description provided for @dark.
-  ///
-  /// In en, this message translates to:
-  /// **'Dark'**
-  String get dark;
-
-  /// No description provided for @light.
-  ///
-  /// In en, this message translates to:
-  /// **'Light'**
-  String get light;
-
-  /// No description provided for @default_.
-  ///
-  /// In en, this message translates to:
-  /// **'default'**
-  String get default_;
-
-  /// No description provided for @selected.
-  ///
-  /// In en, this message translates to:
-  /// **'Selected'**
-  String get selected;
 
   /// No description provided for @emailIsRequired.
   ///
@@ -458,6 +362,54 @@ abstract class AppLocalizations {
   /// **'Validation failed for full name:'**
   String get validateFailureFullName;
 
+  /// No description provided for @incorrectEmailOrPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect email or password'**
+  String get incorrectEmailOrPassword;
+
+  /// No description provided for @dontHaveEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t Have Email ?'**
+  String get dontHaveEmail;
+
+  /// No description provided for @enterEmailAddressAssociated.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the email address associated'**
+  String get enterEmailAddressAssociated;
+
+  /// No description provided for @facebook.
+  ///
+  /// In en, this message translates to:
+  /// **'Facebook'**
+  String get facebook;
+
+  /// No description provided for @google.
+  ///
+  /// In en, this message translates to:
+  /// **'Google'**
+  String get google;
+
+  /// No description provided for @apple.
+  ///
+  /// In en, this message translates to:
+  /// **'Apple'**
+  String get apple;
+
+  /// No description provided for @signUpPage.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Up Form Goes Here'**
+  String get signUpPage;
+
+  /// No description provided for @date.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get date;
+
   /// No description provided for @selectDate.
   ///
   /// In en, this message translates to:
@@ -488,23 +440,71 @@ abstract class AppLocalizations {
   /// **'Day'**
   String get day;
 
-  /// No description provided for @confirm.
+  /// No description provided for @gender.
   ///
   /// In en, this message translates to:
-  /// **'Confirm'**
-  String get confirm;
+  /// **'Gender'**
+  String get gender;
 
-  /// No description provided for @enterEmailAddressAssociated.
+  /// No description provided for @male.
   ///
   /// In en, this message translates to:
-  /// **'Enter the email address associated'**
-  String get enterEmailAddressAssociated;
+  /// **'Male'**
+  String get male;
 
-  /// No description provided for @incorrectEmailOrPassword.
+  /// No description provided for @female.
   ///
   /// In en, this message translates to:
-  /// **'Incorrect email or password'**
-  String get incorrectEmailOrPassword;
+  /// **'Female'**
+  String get female;
+
+  /// No description provided for @welcomeBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome Back'**
+  String get welcomeBack;
+
+  /// No description provided for @language.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get language;
+
+  /// No description provided for @country.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get country;
+
+  /// No description provided for @mode.
+  ///
+  /// In en, this message translates to:
+  /// **'Mode'**
+  String get mode;
+
+  /// No description provided for @arabic.
+  ///
+  /// In en, this message translates to:
+  /// **'Arabic'**
+  String get arabic;
+
+  /// No description provided for @english.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get english;
+
+  /// No description provided for @dark.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get dark;
+
+  /// No description provided for @light.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get light;
 }
 
 class _AppLocalizationsDelegate

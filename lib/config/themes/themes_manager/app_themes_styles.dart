@@ -33,7 +33,7 @@ abstract class AppLightStyles
   );
 
   static TabBarThemeData get tabBarTheme => TabBarThemeData(
-    unselectedLabelColor: AppColors.color.kGreyText002,
+    unselectedLabelColor: AppColors.color.kGrey001,
     indicatorColor: AppColors.color.kOrange001,
     indicatorSize: TabBarIndicatorSize.tab,
     labelColor: AppColors.color.kOrange001,
@@ -57,7 +57,7 @@ abstract class AppDarkStyles
 
   static InputBorder get inputBorderDark => OutlineInputBorder(
     borderRadius: AppBordersRadiuses.circular.large,
-    borderSide: BorderSide(color: AppColors.color.kDark001, width: AppBorderWidths.xsmall,),
+    borderSide: BorderSide(color: AppColors.color.kBlack001, width: AppBorderWidths.xsmall,),
   );
 
   static ElevatedButtonThemeData get elevatedButtonTheme => ElevatedButtonThemeData(
@@ -78,7 +78,7 @@ abstract class AppDarkStyles
   );
 
   static TabBarThemeData get tabBarTheme => TabBarThemeData(
-    unselectedLabelColor: AppColors.color.kGreyText002,
+    unselectedLabelColor: AppColors.color.kGrey001,
     indicatorColor: AppColors.color.kOrange001,
     indicatorSize: TabBarIndicatorSize.tab,
     labelColor: AppColors.color.kOrange001,
@@ -86,6 +86,6 @@ abstract class AppDarkStyles
   );
 
   static NoDefaultCupertinoThemeData get cupertinoDarkOverrideTheme => CupertinoThemeData(
-    textTheme: CupertinoTextThemeData(pickerTextStyle: AppFontStyles.textStyle12(fontColor: AppColors.color.kWhite003,),),
+    textTheme: CupertinoTextThemeData(pickerTextStyle: AppFontStyles.textStyle12(fontColor: AppColors.color.kWhite001,),),
   );
 }

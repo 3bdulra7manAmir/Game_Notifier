@@ -10,7 +10,7 @@ class AppDivider extends StatelessWidget
   Widget build(BuildContext context)
   {
     return Divider(
-      color: AppColors.color.kGreyText009, 
+      color: AppColors.color.kGrey002, 
       thickness: AppSizes.size1,
       indent: AppSizes.size15,
       endIndent: AppSizes.size15,

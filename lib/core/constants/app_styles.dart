@@ -25,7 +25,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kOrange002,
+      color: fontColor ?? AppColors.color.kOrange001,
     );
   }
   /// FontWeight = [w700], FontColor = [_FFFFFF], FontFamily = [Roboto]
@@ -64,7 +64,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kGreyText001,
+      color: fontColor ?? AppColors.color.kGrey001,
     );
   }
 
@@ -104,7 +104,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kGreyText001,
+      color: fontColor ?? AppColors.color.kGrey001,
     );
   }
 
@@ -124,7 +124,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kGreyText001,
+      color: fontColor ?? AppColors.color.kGrey001,
     );
   }
 
@@ -164,7 +164,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kGreyText001,
+      color: fontColor ?? AppColors.color.kGrey001,
     );
   }
 
@@ -184,7 +184,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kGreyText002,
+      color: fontColor ?? AppColors.color.kGrey002,
     );
   }
 
@@ -204,7 +204,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kGreyText002,
+      color: fontColor ?? AppColors.color.kGrey002,
     );
   }
 
@@ -224,7 +224,7 @@ abstract class AppFontStyles
       decoration: textDecoration ?? TextDecoration.none,
       decorationColor: textDecorationColor,
       overflow: textOverflow ?? TextOverflow.ellipsis,
-      color: fontColor ?? AppColors.color.kBlue003,
+      color: fontColor ?? AppColors.color.kBlue001,
     );
   }
 }

@@ -12,16 +12,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get skip => 'تخطي';
 
   @override
-  String get welcomeBack => 'مرحبًا بعودتك';
+  String get confirm => 'تأكيد';
 
   @override
-  String get language => 'اللغة';
+  String get selected => 'محدد';
 
   @override
-  String get country => 'البلد';
-
-  @override
-  String get mode => 'الوضع';
+  String get default_ => 'افتراضي';
 
   @override
   String get login => 'تسجيل الدخول';
@@ -33,19 +30,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get or => 'أو';
 
   @override
-  String get email => 'البريد الإلكتروني';
-
-  @override
-  String get enterEmaill => 'أدخل البريد الإلكتروني';
-
-  @override
-  String get password => 'كلمة المرور';
-
-  @override
   String get remember => 'تذكرني';
 
   @override
   String get forgetPassword => 'نسيت كلمة المرور';
+
+  @override
+  String get forgotPassword => 'هل نسيت كلمة المرور؟';
 
   @override
   String get orLoginWith => 'أو تسجيل الدخول باستخدام';
@@ -54,49 +45,28 @@ class AppLocalizationsAr extends AppLocalizations {
   String get orSignUpWith => 'أو التسجيل باستخدام';
 
   @override
-  String get facebook => 'فيسبوك';
-
-  @override
-  String get google => 'جوجل';
-
-  @override
-  String get apple => 'آبل';
-
-  @override
-  String get fullName => 'الاسم الكامل';
-
-  @override
-  String get date => 'التاريخ';
-
-  @override
-  String get gender => 'الجنس';
-
-  @override
-  String get male => 'ذكر';
-
-  @override
-  String get female => 'أنثى';
-
-  @override
-  String get signUpPage => 'نموذج التسجيل هنا';
-
-  @override
   String get resetPassword => 'إعادة تعيين كلمة المرور';
 
   @override
-  String get forgotPassword => 'هل نسيت كلمة المرور؟';
+  String get verify => 'تحقق';
+
+  @override
+  String get verifyLater => 'التحقق لاحقًا';
 
   @override
   String get withYourAccount => 'بحسابك';
 
   @override
+  String get email => 'البريد الإلكتروني';
+
+  @override
   String get emailAddress => 'عنوان البريد الإلكتروني';
 
   @override
-  String get dontHaveEmail => 'لا تملك بريدًا إلكترونيًا؟';
+  String get enterEmaill => 'أدخل البريد الإلكتروني';
 
   @override
-  String get verify => 'تحقق';
+  String get password => 'كلمة المرور';
 
   @override
   String get newPassword => 'كلمة مرور جديدة';
@@ -105,7 +75,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get confirmPassword => 'تأكيد كلمة المرور';
 
   @override
-  String get verifyLater => 'التحقق لاحقًا';
+  String get fullName => 'الاسم الكامل';
 
   @override
   String get verificationCode => 'رمز التحقق';
@@ -125,24 +95,6 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get resend => 'إعادة الإرسال';
-
-  @override
-  String get arabic => 'العربية';
-
-  @override
-  String get english => 'الإنجليزية';
-
-  @override
-  String get dark => 'داكن';
-
-  @override
-  String get light => 'فاتح';
-
-  @override
-  String get default_ => 'افتراضي';
-
-  @override
-  String get selected => 'محدد';
 
   @override
   String get emailIsRequired => 'البريد الإلكتروني مطلوب';
@@ -197,6 +149,32 @@ class AppLocalizationsAr extends AppLocalizations {
   String get validateFailureFullName => 'فشل التحقق من الاسم الكامل:';
 
   @override
+  String get incorrectEmailOrPassword =>
+      'البريد الإلكتروني أو كلمة المرور غير صحيحة';
+
+  @override
+  String get dontHaveEmail => 'لا تملك بريدًا إلكترونيًا؟';
+
+  @override
+  String get enterEmailAddressAssociated =>
+      'أدخل عنوان البريد الإلكتروني المرتبط';
+
+  @override
+  String get facebook => 'فيسبوك';
+
+  @override
+  String get google => 'جوجل';
+
+  @override
+  String get apple => 'آبل';
+
+  @override
+  String get signUpPage => 'نموذج التسجيل هنا';
+
+  @override
+  String get date => 'التاريخ';
+
+  @override
   String get selectDate => 'اختر التاريخ';
 
   @override
@@ -212,13 +190,35 @@ class AppLocalizationsAr extends AppLocalizations {
   String get day => 'اليوم';
 
   @override
-  String get confirm => 'تأكيد';
+  String get gender => 'الجنس';
 
   @override
-  String get enterEmailAddressAssociated =>
-      'أدخل عنوان البريد الإلكتروني المرتبط';
+  String get male => 'ذكر';
 
   @override
-  String get incorrectEmailOrPassword =>
-      'البريد الإلكتروني أو كلمة المرور غير صحيحة';
+  String get female => 'أنثى';
+
+  @override
+  String get welcomeBack => 'مرحبًا بعودتك';
+
+  @override
+  String get language => 'اللغة';
+
+  @override
+  String get country => 'البلد';
+
+  @override
+  String get mode => 'الوضع';
+
+  @override
+  String get arabic => 'العربية';
+
+  @override
+  String get english => 'الإنجليزية';
+
+  @override
+  String get dark => 'داكن';
+
+  @override
+  String get light => 'فاتح';
 }

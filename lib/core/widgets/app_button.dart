@@ -42,14 +42,14 @@ class CustomButton extends ConsumerWidget
       child: ElevatedButton(
         style: ButtonStyle(
           padding: WidgetStateProperty.all<EdgeInsetsGeometry?>(buttonPadding),
-          backgroundColor: WidgetStateProperty.all<Color>(buttonBackgroundColor),
+          backgroundColor: WidgetStateProperty.all<Color>(buttonBackgroundColor!), //HERE
           shape: WidgetStateProperty.all<RoundedRectangleBorder>(
             RoundedRectangleBorder(
               borderRadius: buttonBorderRadius ?? AppBordersRadiuses.circular.large,
-              side: BorderSide(color: buttonBorderColor ?? AppColors.color.kTransparent, width: buttonBorderWidth ?? AppBorderWidths.thin))),
+              side: BorderSide(color: buttonBorderColor ?? AppColors.color.kTransparent, width: buttonBorderWidth ?? AppBorderWidths.xsmall))),
         ),
         onPressed: buttonOnPressed,
-        child: Text(buttonText, style: buttonTextStyle ?? AppFontStyles.textStyle14(fontColor: AppColors.color.kWhite003,),),
+        child: Text(buttonText, style: buttonTextStyle ?? AppFontStyles.textStyle14(fontColor: AppColors.color.kWhite002,),),
       ),
     );
   }
