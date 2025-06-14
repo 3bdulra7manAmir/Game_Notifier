@@ -1,0 +1,113 @@
+name: free_game_notifier
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+
+  # Flutter Localization support
+  flutter_localizations:
+    sdk: flutter
+
+  # Riverpod (State Management)
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Cached NetWork IMG
+  cached_network_image: ^3.4.1
+  # Network Cache
+  shimmer: ^3.0.0
+
+  # Device Preview (for responsive testing)
+  device_preview: ^1.2.0
+
+  # Hive (local DataBase)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Shared Preferences (local storage)
+  shared_preferences: ^2.5.3
+
+  # Internationalization
+  intl: ^0.20.2
+
+  # Screen Util (responsive UI)
+  flutter_screenutil: ^5.9.3
+
+  # SVG rendering
+  flutter_svg: ^2.0.17
+
+  # Rename App (for changing app name/package)
+  rename_app: ^1.6.2
+
+  # Comparing and Hashing
+  equatable: ^2.0.7
+
+  # Either Class
+  dartz: ^0.10.1
+
+  # Remote Requests
+  dio: ^5.8.0+1
+
+dev_dependencies:
+  # Code Generation & runner
+  build_runner: ^2.4.15
+  riverpod_generator: ^2.6.3
+  hive_generator: ^2.0.1
+  analyzer: ^6.11.0
+
+  # Riverpod Lints
+  riverpod_lint: any
+
+  # Flutter Lints
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # Fonts Configuration
+  fonts:
+    # Roboto Fonts
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/roboto/Roboto-ExtraBold.ttf
+        - asset: assets/fonts/roboto/Roboto-ExtraLight.ttf
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/roboto/Roboto-SemiBold.ttf
+    # Cairo Fonts
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-Black.ttf
+        - asset: assets/fonts/cairo/Cairo-Bold.ttf
+        - asset: assets/fonts/cairo/Cairo-ExtraBold.ttf
+        - asset: assets/fonts/cairo/Cairo-ExtraLight.ttf
+        - asset: assets/fonts/cairo/Cairo-Light.ttf
+        - asset: assets/fonts/cairo/Cairo-Medium.ttf
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/cairo/Cairo-SemiBold.ttf
+
+  # Asset Paths
+  assets:
+    - assets/icons/
+    - assets/imgs/
+    - assets/json/
+
+# Flutter Intl Configuration
+flutter_intl:
+  enabled: true
+  arb_dir: lib/config/i18n/l10n
+  output_dir: lib/config/i18n/generated
